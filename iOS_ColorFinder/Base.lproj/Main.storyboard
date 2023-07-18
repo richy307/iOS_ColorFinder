@@ -26,8 +26,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZNY-qB-Zab" userLabel="Bottom Yellow View">
                                 <rect key="frame" x="0.0" y="702" width="393" height="150"/>
                                 <subviews>
-                                    <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Uso-4Z-Lm2">
-                                        <rect key="frame" x="137" y="60" width="119" height="31"/>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Uso-4Z-Lm2" userLabel="Green Slider">
+                                        <rect key="frame" x="57" y="60" width="279" height="31"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="oSc-tq-iTp"/>
                                         </constraints>
@@ -35,6 +35,7 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="Uso-4Z-Lm2" firstAttribute="width" secondItem="ZNY-qB-Zab" secondAttribute="width" multiplier="0.7" id="Jf2-4W-Xtl"/>
                                     <constraint firstAttribute="height" constant="150" id="P0Q-hx-B4M"/>
                                     <constraint firstItem="Uso-4Z-Lm2" firstAttribute="centerY" secondItem="ZNY-qB-Zab" secondAttribute="centerY" id="nYw-3O-GVE"/>
                                     <constraint firstItem="Uso-4Z-Lm2" firstAttribute="centerX" secondItem="ZNY-qB-Zab" secondAttribute="centerX" id="wQm-8e-FWh"/>
