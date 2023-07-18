@@ -32,12 +32,30 @@
                                             <constraint firstAttribute="height" constant="30" id="oSc-tq-iTp"/>
                                         </constraints>
                                     </slider>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="1iQ-fQ-k54" userLabel="Red Slider">
+                                        <rect key="frame" x="57" y="15" width="279" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="OwU-kt-ql3"/>
+                                        </constraints>
+                                    </slider>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="lZ4-hL-zG7" userLabel="Blue Slider">
+                                        <rect key="frame" x="57" y="105" width="279" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="kgN-II-TCm"/>
+                                        </constraints>
+                                    </slider>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="1iQ-fQ-k54" firstAttribute="width" secondItem="ZNY-qB-Zab" secondAttribute="width" multiplier="0.7" id="DFb-so-kjq"/>
                                     <constraint firstItem="Uso-4Z-Lm2" firstAttribute="width" secondItem="ZNY-qB-Zab" secondAttribute="width" multiplier="0.7" id="Jf2-4W-Xtl"/>
                                     <constraint firstAttribute="height" constant="150" id="P0Q-hx-B4M"/>
+                                    <constraint firstItem="1iQ-fQ-k54" firstAttribute="centerX" secondItem="ZNY-qB-Zab" secondAttribute="centerX" id="R0O-DG-lDP"/>
+                                    <constraint firstItem="lZ4-hL-zG7" firstAttribute="width" secondItem="ZNY-qB-Zab" secondAttribute="width" multiplier="0.7" id="RsM-vl-SyU"/>
+                                    <constraint firstItem="lZ4-hL-zG7" firstAttribute="centerX" secondItem="ZNY-qB-Zab" secondAttribute="centerX" id="hyf-Io-Hg7"/>
+                                    <constraint firstItem="lZ4-hL-zG7" firstAttribute="top" secondItem="Uso-4Z-Lm2" secondAttribute="bottom" constant="15" id="itz-Tt-7p9"/>
                                     <constraint firstItem="Uso-4Z-Lm2" firstAttribute="centerY" secondItem="ZNY-qB-Zab" secondAttribute="centerY" id="nYw-3O-GVE"/>
+                                    <constraint firstItem="Uso-4Z-Lm2" firstAttribute="top" secondItem="1iQ-fQ-k54" secondAttribute="bottom" constant="15" id="tLg-Rk-6bg"/>
                                     <constraint firstItem="Uso-4Z-Lm2" firstAttribute="centerX" secondItem="ZNY-qB-Zab" secondAttribute="centerX" id="wQm-8e-FWh"/>
                                 </constraints>
                             </view>
@@ -45,12 +63,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="nhs-2T-WvJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="1E7-YX-G8x"/>
+                            <constraint firstItem="nhs-2T-WvJ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="1E7-YX-G8x"/>
                             <constraint firstAttribute="bottom" secondItem="ZNY-qB-Zab" secondAttribute="bottom" id="38M-oM-FHa"/>
                             <constraint firstItem="nhs-2T-WvJ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GD9-R1-Q8G"/>
-                            <constraint firstItem="nhs-2T-WvJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MV6-2I-5Lh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZNY-qB-Zab" secondAttribute="trailing" id="mdv-vu-8qO"/>
-                            <constraint firstItem="ZNY-qB-Zab" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nfy-ri-bWT"/>
+                            <constraint firstItem="nhs-2T-WvJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="MV6-2I-5Lh"/>
+                            <constraint firstAttribute="trailing" secondItem="ZNY-qB-Zab" secondAttribute="trailing" id="mdv-vu-8qO"/>
+                            <constraint firstItem="ZNY-qB-Zab" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nfy-ri-bWT"/>
                         </constraints>
                     </view>
                 </viewController>
